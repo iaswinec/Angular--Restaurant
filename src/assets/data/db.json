@@ -76,6 +76,17 @@
       "productImg": "https://i.postimg.cc/9QndS2XM/DEL-2022-Q3-HANNAH-HUGHES-PLUMS-MOZZARELLA-LEEK-PLUM-SALAD-768x960-1.jpg",
       "rating": 4.7,
       "review": 646
+    },
+    {
+      "id": "100",
+      "productName": "rice",
+      "categoryId": "2",
+      "description": "Most common food in kerala",
+      "price": "45",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/9QndS2XM/DEL-2022-Q3-HANNAH-HUGHES-PLUMS-MOZZARELLA-LEEK-PLUM-SALAD-768x960-1.jpg",
+      "rating": "4.9",
+      "review": "343"
     }
   ]
 }

@@ -25,4 +25,8 @@ export class ProductService {
     return this.http.delete('http://localhost:3000/products/'+pid)
   }
 
+  addNewProduct(pdata:any){  //add product
+    return this.http.post('http://localhost:3000/products/',pdata)
+  }
+
 }

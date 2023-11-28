@@ -1,1 +1,16 @@
-<p>add-product works!</p>
+<div class="container p-5 w-50 text-center">
+    <h1>Add New Product</h1>
+    <form (ngSubmit)="addproduct()" [formGroup]="addProductForm" class="container p-5 border bg-light">
+        <input formControlName="id" name="pname1" id="pid1" placeholder="Id" class="form-control mt-3 p-2">
+        <input formControlName="productName"  name="pname2" id="pid2" placeholder="product Name" class="form-control mt-3 p-2" type="text" >
+        <input formControlName="categoryId"  name="pname3" id="pid3" placeholder="Category Id" class="form-control mt-3 p-2" type="text" >
+        <!-- <input formControlName="description"  name="pname4" id="pid4" placeholder="description" class="form-control mt-3 p-2" type="text" > -->
+        <textarea class="form-control mt-3 p-2" formControlName="description"  name="pname4" id="pid4" rows="3" placeholder="Description"></textarea>
+        <input formControlName="price"  name="pname5" id="pid5" placeholder="Price" class="form-control mt-3 p-2" type="text" >
+        <input formControlName="is_available"  name="pname6" id="pid6" placeholder="Is Available" class="form-control mt-3 p-2" type="text" >
+        <input formControlName="productImg"  name="pname7" id="pid7" placeholder="Product Image (url)" class="form-control mt-3 p-2" type="text" >
+        <input formControlName="rating"  name="pname8" id="pid8" placeholder="Rating" class="form-control mt-3 p-2" type="text" >
+        <input formControlName="review"  name="pname9" id="pid9" placeholder="review" class="form-control mt-3 p-2" type="text" >
+        <button type="submit" class="btn btn-secondary p-2 mt-3">Add</button>
+    </form>
+</div>
