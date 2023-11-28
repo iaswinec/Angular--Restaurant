@@ -1,0 +1,58 @@
+<div class="conatiner-fluid  mt-5 ">
+    <div class="row" style="width: 100%;">
+        <div class="col-3 text-center">
+            <a (click)="filter('')" style="text-decoration:none; color: crimson;">
+                <img id="d1" class="img-fluid w-50"  style="border-radius: 60px;" src="https://i.postimg.cc/kXdgBR1C/main.jpg" alt="">
+                <h2 class="mt-1">All Products</h2>
+            </a>
+        </div>
+
+        <div class="col-3 text-center">
+            <a (click)="filter(2)"  style="text-decoration:none; color: crimson;">                
+                <img id="d1" class="img-fluid w-50" style="border-radius: 60px; height: 170px"  src="https://i.postimg.cc/vZ8hwzVS/strt.jpg" alt="">
+                <h2 class="mt-2">Starters</h2>
+            </a>
+        </div>
+
+        <div class="col-3 text-center">
+            <a (click)="filter(3)"  style="text-decoration:none; color: crimson;">
+                <img  id="d1" class="img-fluid w-50"  style="border-radius: 60px;" src="https://i.postimg.cc/7Y3PrPNL/fried.jpg" alt="">
+                <h2 class="mt-1">Main Course</h2>
+            </a> 
+        </div>
+
+        <div class="col-3 text-center">
+            <a (click)="filter(4)"  style="text-decoration:none; color: crimson;">
+                <img  id="d1" class="img-fluid w-50"  style="border-radius: 60px;" src="https://i.postimg.cc/pL3GHjJN/dessert.jpg" alt="">
+                <h2 class="mt-1">Desserts</h2>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">         
+            <div *ngFor="let i of filterCategory | filter : searchString : 'productName'" class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                                            <!--  pipeName: 'filterString' : 'propName'-->
+                <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                    </div>
+                    <img  id="d1" style="height: 350px;" class="card-img-top" src="{{i.productImg}}" alt="..." />
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <span class="text-dark"><i class="fa-solid fa-indian-rupee-sign"></i> {{i.price}}</span>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" routerLink="view-product/{{i.id}}">View</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

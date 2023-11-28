@@ -1,0 +1,94 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Ginger Ale drink",
+            "categoryId": 4,
+            "description": "Ginger ale is a carbonated soft drink flavoured with ginger. It is consumed on its own or used as a mixer, often with spirit-based drinks",
+            "price": 120,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/NGXF5kwq/Gingerale.jpg",
+            "rating": 4.2,
+            "review": 43
+        },
+        {
+            "id": 2,
+            "productName": "Chicken Biriyani",
+            "categoryId": 3,
+            "description": "Biryani is a mixed rice dish originating among the Muslims of South Asia. It is made with rice, some type of meat and spices. To cater to vegetarians, in some cases it is prepared without any meat, substituting vegetables for the meat",
+            "price": 190,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/s2KSH9g0/biriyani.webp",
+            "rating": 4.8,
+            "review": 743
+        },
+        {
+            "id": 3,
+            "productName": "Chicken Mandhi",
+            "categoryId": 3,
+            "description": "Mandi is a traditional dish that originated from Hadhramaut, Yemen. consisting mainly of meat and rice with a special blend of spices, cooked in a pit.",
+            "price": 230,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/nrXPhhWp/mandhi.jpg",
+            "rating": 4.1,
+            "review": 658
+        },
+        {
+            "id": 4,
+            "productName": "Prawn and ginger dumplings",
+            "categoryId": 2,
+            "description": "These dairy-free prawn and ginger dumplings with Asian greens are a delicious way to get three of your daily vegetable serves. Plus, this dish is high in protein, fibre and iron!",
+            "price": 160,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/gkLmjz9M/prawn-and-ginger.jpg",
+            "rating": 4.1,
+            "review": 749
+        },
+        {
+            "id": 5,
+            "productName": "Gulab jamun",
+            "categoryId": 4,
+            "description": "It is made mainly from milk solids, traditionally from khoya, which is milk reduced to the consistency of a soft dough. Modern recipes call for dried or powdered milk instead of khoya. It is often garnished with dried nuts such as almonds and cashews to enhance flavour.",
+            "price":40,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/bJqFXT8X/Gulab-jamun.jpg",
+            "rating": 4.2,
+            "review": 358
+        },
+        {
+            "id": 6,
+            "productName": "paris brest",
+            "categoryId": 4,
+            "description": "Created in 1910 by chef Louis Durand to celebrate the famous Paris-Brest-Paris bicycle race, which led from the center of Paris past the door of his pastry shop in Maisons-Laffitte to Brittany and back, this decadent dessert is a true French classic found in pâtisseries all over the country",
+            "price": 350,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/rFDYJwM5/parisbrest.jpg",
+            "rating": 4.9,
+            "review": 441
+        }
+        ,
+        {
+            "id": 7,
+            "productName": "Shrimp fried rice",
+            "categoryId": 3,
+            "description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.",
+            "price": 220,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/CKmBYDWh/Shrimp-Fried-Rice-3.jpg",
+            "rating": 3.4,
+            "review": 964
+        }
+        ,
+        {
+            "id": 8,
+            "productName": "Mozzarella, plum and burnt leek salad",
+            "categoryId": 2,
+            "description": "This simple and colourful mozzarella salad is perfect for welcoming autumn. The combination of creamy cheese, smoky leeks, peppery watercress and tangy-sweet plums is a crowdpleaser.",
+            "price": 170,
+            "is_available": "yes",
+            "productImg": "https://i.postimg.cc/9QndS2XM/DEL-2022-Q3-HANNAH-HUGHES-PLUMS-MOZZARELLA-LEEK-PLUM-SALAD-768x960-1.jpg",
+            "rating": 4.7,
+            "review": 646
+        }
+    ]
+}
