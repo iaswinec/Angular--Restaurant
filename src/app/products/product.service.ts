@@ -29,4 +29,8 @@ export class ProductService {
     return this.http.post('http://localhost:3000/products/',pdata)
   }
 
+  editProduct(pid:any, pdata:any){  //update product
+    return this.http.put('http://localhost:3000/products/'+pid,pdata)
+  }
+
 }

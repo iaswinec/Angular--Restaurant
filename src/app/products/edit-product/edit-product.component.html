@@ -1,1 +1,15 @@
-<p>edit-product works!</p>
+<div class="container p-5 w-50 text-center">
+    <h1>Edit Product</h1>
+    <form (ngSubmit)="updateProduct(updateProductForm)"  class="container p-5 border bg-light" #updateProductForm="ngForm">
+        <input [(ngModel)]="pdata.id" name="pname1" id="pid1" class="form-control mt-3 p-2">
+        <input [(ngModel)]="pdata.productName" name="pname2" id="pid2"  class="form-control mt-3 p-2" type="text" >
+        <input [(ngModel)]="pdata.categoryId" name="pname3" id="pid3" class="form-control mt-3 p-2" type="text" >
+        <textarea  [(ngModel)]="pdata.description" class="form-control mt-3 p-2" name="pname4" id="pid4" rows="3"></textarea>
+        <input [(ngModel)]="pdata.price" name="pname5" id="pid5" class="form-control mt-3 p-2" type="text" >
+        <input [(ngModel)]="pdata.is_available" name="pname6" id="pid6" class="form-control mt-3 p-2" type="text" >
+        <input [(ngModel)]="pdata.productImg" name="pname7" id="pid7" class="form-control mt-3 p-2" type="text" >
+        <input [(ngModel)]="pdata.rating" name="pname8" id="pid8" class="form-control mt-3 p-2" type="text" >
+        <input [(ngModel)]="pdata.review" name="pname9" id="pid9" class="form-control mt-3 p-2" type="text" >
+        <button type="submit" class="btn btn-secondary p-2 mt-3">Update</button>
+    </form>
+</div>

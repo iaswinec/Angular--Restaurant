@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 2,
-      "productName": "Chicken Biriyani",
+      "productName": " Chicken Biriyani (Malabar special)",
       "categoryId": 3,
       "description": "Biryani is a mixed rice dish originating among the Muslims of South Asia. It is made with rice, some type of meat and spices. To cater to vegetarians, in some cases it is prepared without any meat, substituting vegetables for the meat",
-      "price": 190,
+      "price": "230",
       "is_available": "yes",
       "productImg": "https://i.postimg.cc/s2KSH9g0/biriyani.webp",
       "rating": 4.8,
